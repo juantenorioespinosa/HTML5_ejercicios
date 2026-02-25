@@ -18,3 +18,4 @@ Estructura del ejercicio:
 - etiquetas_de_hipervinculos.html: Muestra como las etiquetas <code><strong>&lt;a&gt;</strong></code> crean hipervínculos externos, internos o secciones del  mismo archivo.
 - etiquetas_espacios_blanco.html: Muestra las diferentes etiquetas que controlan los espacios en blanco y saltos de línea.
 - etiquetas_de_entidades.html: Muestra como se utilizan secuencias de caracteres para representar caracteres especiales o protegidos de HTML5.
+- docs: carpeta que contiene un documento .pdf para el enlace con descarga de etiquetas_de_hipervinculos.html
