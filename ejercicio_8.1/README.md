@@ -1,6 +1,6 @@
 Tarea 8.1: Tablas en HTML5
 
-Este proyecto contiene dos ejercicios para practicar la estructura de tablas sencillas. En el primero usamos la etiqueta <caption> para añadir títulos. En el segundo, utilizamos el atributo border a modo de introducción y primer contacto visual, teniendo en cuenta que es una práctica que en el futuro sustituiré por hojas de estilo (CSS) para separar correctamente la estructura del diseño.
+Este proyecto contiene dos ejercicios para practicar la estructura de tablas sencillas. En el primero usamos la etiqueta &lt;caption&gt; para añadir títulos. En el segundo, utilizamos el atributo `border` a modo de introducción y primer contacto visual, teniendo en cuenta que es una práctica que en el futuro sustituiré por hojas de estilo (CSS) para separar correctamente la estructura del diseño.
 
 Estructura del ejercicio:
 - index.html: Menú principal con acceso a los ejercicios.
