@@ -1,6 +1,7 @@
 Tarea 9.1: Tablas avanzadas en HTML5
 
 Este proyecto contiene una serie de ejercicios prácticos enfocados en el dominio de la estructura de tablas en HTML5, manejando la fusión de celdas con los atributos `colspan` y `rowspan`; y el uso de las etiquetas semánticas `<thead>`, `<tbody>`, `<tfoot>` y `<caption>` para mejorar la interpretación de datos por navegadores y lectores de pantalla.
+
 Se utiliza el atributo `border` porque permite ver la estructura de la tabla de inmediato, teniendo en cuenta que es una práctica que en el futuro sustituiré por hojas de estilo (CSS) para separar correctamente la estructura del diseño.
 
 Estructura del ejercicio:
