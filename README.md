@@ -7,3 +7,4 @@
 - Ejercicio 6.1: Localizar las distintas etiquetas semánticas en 3 paginas web diferentes [Ejercicio en figma](https://www.figma.com/design/Y0ahwzWEowzC6S4PpyLmEq/Tarea-6.1-Etiquetas-Sem%C3%A1nticas?node-id=0-1&m=dev&t=ggvW7C8iSrszdniw-1)
 - Ejercicio 7.1: Estructuración de contenidos mediante etiquetas de agrupación y listas anidadas [ver código](ejercicio_7.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_7.1/)
 - Ejercicio 8.1: Tablas sencillas [ver código](ejercicio_8.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_8.1/)
+- Ejercicio 9.1: Tablas complejas [ver código](ejercicio_9.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_9.1/)
