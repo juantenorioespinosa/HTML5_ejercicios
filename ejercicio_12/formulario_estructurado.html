@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML5: Agrupación de datos con fieldset y legend</title>
+    <meta name="author" content="Juan Tenorio">
+</head>
+
+<body>
+    <h1>Formulario estructurado</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr/>
+
+    <form action="" name="registro" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <p>
+                <label for="fname">Nombre</label><br>
+                <input type="text" name="fname" value="" id="fname" maxlength="15">
+            </p>
+            
+            <p>
+                <label for="lname">Apellidos</label><br>
+                <input type="text" name="lname" value="" id="lname" maxlength="25">
+            </p>
+
+            <p>
+                <label for="dni">DNI</label><br>
+                <input type="text" name="dni" value="" id="dni" maxlength="9" size="9">
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Datos de conexión</legend>
+
+            <p>
+                <label for="user">Nombre de usuario</label><br>
+                <input type="text" name="user" value="" id="user">
+            </p>
+
+            <p>
+                <label for="pwd1">Contraseña</label><br>
+                <input type="password" name="pwd1" value="" id="pwd1" minlength="8">
+            </p>
+
+            <p>
+                <label for="pwd2">Repite la contraseña</label><br>
+                <input type="password" name="pwd2" value="" id="pwd2" minlength="8">
+            </p>
+        </fieldset>
+
+        <p>
+            <button >Enviar</button>
+        </p>
+    </form> 
+</body>
+
+</html>
