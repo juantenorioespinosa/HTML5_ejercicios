@@ -8,3 +8,4 @@
 - Ejercicio 7.1: Estructuración de contenidos mediante etiquetas de agrupación y listas anidadas [ver código](ejercicio_7.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_7.1/)
 - Ejercicio 8.1: Tablas sencillas [ver código](ejercicio_8.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_8.1/)
 - Ejercicio 9.1: Tablas complejas [ver código](ejercicio_9.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_9.1/)
+- Ejercicio 12: Formularios [ver código](ejercicio_12) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_12/)
