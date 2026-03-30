@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Imágenes en HTML5</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Como insertar diferentes tipos de imágenes en una página web">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="Juan Tenorio">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+        <h1>Imágenes en la web</h1>
+        <hr />
+    </header>
+
+    <main>
+      <h2>Ejemplo de imagen en el mismo directorio</h2>
+      <img src="hero-banner.jpg" alt="Banner principal de la campaña de verano" width="800" height="400" loading="eager">
+      
+      <h2>Ejemplo de imagen en el directorio img</h2>
+      <img src="./img/hero-banner2.jpg" alt="Banner principal de la campaña de verano" width="600" height="300" loading="eager">
+
+      <h3>Ejemplo de imagen con semántica visual - &lt;figure&gt; y &lt;figcaption&gt;</h3>
+      <figure>
+        <img src="./img/graficoventas2026.png" alt="Gráfico de ventas de 2026" width="600" height="400" loading="eager">
+        <figcaption>Ventas totales del año 2026 por trimestre</figcaption>
+      </figure>
+      
+      <h2>Ejemplo de imagen cargada desde otra página web</h2>
+      <img src="https://picsum.photos/200/300.jpg" alt="Imagen vertical aleatoria" loading="lazy">
+
+      <h3>Ejemplo de imagen responsive y adaptativa - &lt;picture&gt; y &lt;source&gt; con atributo 'media'</h3>
+
+      <p><strong>1. Imagen según tamaño de pantalla:</strong><br>
+      <em>El navegador elige qué tamaño de imagen descargar basándose en el ancho de la pantalla usando el 
+        descriptor `w`, evitando gastar recursos o tiempo de descarga innecesario en dispositivos más pequeños.</em></p>
+      <img src="https://picsum.photos/400/200.jpg" alt="fotografia aleatoria" loading="lazy"
+           srcset="https://picsum.photos/400/200.jpg 400w,
+                    https://picsum.photos/900/400.jpg 900w,
+                    https://picsum.photos/1200/600.jpg 1200w">
+
+      <p><strong>2. Imagen con distinto formato según el navegador:</strong><br>
+      <em>El navegador intenta cargar formatos de nueva generación más ligeros (como AVIF o WEBP).
+        Si no los soporta, recurre al formato tradicional (JPEG) indicado al final como salvavidas.</em></p>
+      <picture>
+        <source srcset="./img/cofee_avif.avif">
+        <source srcset="./img/cofee_webp.webp">
+        <img src="./img/cofee_jpeg.jpeg" alt="Imagen aleatoria" loading="lazy">
+      </picture>
+
+      <p><strong>3. Imagen según requisitos específicos (media queries y densidad):</strong><br>
+      <em>Cambia drásticamente la imagen dependiendo de las reglas de diseño o media queries.
+        Además, ofrece diferentes versiones para adaptarse a la densidad de píxeles de la pantalla (usando `2x` o `3x`).</em></p>
+      <picture>
+        <source media="(width >= 900px)"
+                srcset="https://picsum.photos/900/506.webp?random=1,
+                        https://picsum.photos/1800/1012.webp?random=1 2x,
+                        https://picsum.photos/2700/1518.webp?random=1 3x">
+                        
+        <source media="(width >= 600px)"
+                srcset="https://picsum.photos/600/338.webp?random=2,
+                        https://picsum.photos/1200/676.webp?random=2 2x,
+                        https://picsum.photos/1800/1014.webp?random=2 3x">   
+                        
+        <img src="https://picsum.photos/400/225.jpg?random=3"
+             srcset="https://picsum.photos/400/225.jpg?random=3,
+                     https://picsum.photos/800/450.jpg?random=3 2x,
+                     https://picsum.photos/1200/675.jpg?random=3 3x"
+             alt="Fotografía aleatoria adaptativa"
+             loading="lazy">
+      </picture>
+    </main>
+</body>
+
+</html>
