@@ -9,3 +9,4 @@
 - Ejercicio 8.1: Tablas sencillas [ver código](ejercicio_8.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_8.1/)
 - Ejercicio 9.1: Tablas complejas [ver código](ejercicio_9.1) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_9.1/)
 - Ejercicio 12: Formularios [ver código](ejercicio_12) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_12/)
+- Ejercicio 13: Imágenes [ver código](ejercicio_13) | [ver demo](https://juantenorioespinosa.github.io/HTML5_ejercicios/ejercicio_13/)
