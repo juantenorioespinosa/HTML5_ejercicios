@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML5: Creación de un registro de usuarios completo</title>
+    <meta name="author" content="Juan Tenorio">
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de registro - Mi web</h1>
+        <hr/>
+    </header>
+    
+    <main>
+        <p>Rellena el siguiente formulario para crear tu perfil:</p>
+
+        <form action="" name="registro" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <p>
+                    <label for="fname">Nombre:</label>
+                    <input type="text" name="fname" value="" id="fname" maxlength="50">
+                </p>
+                
+                <p>
+                    <label for="lname">Apellidos:</label>
+                    <input type="text" name="lname" value="" id="lname" maxlength="50">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" value="" id="email" placeholder="example@gmail.com">
+                </p>
+
+                <p>
+                    <label for="country">Población:</label>
+                    <select name="country" id="country" required>
+                        <option value="">-</option>
+                        <option value="A">Alicante</option>
+                        <option value="M">Madrid</option>
+                        <option value="S">Sevilla</option>
+                        <option value="V">Valencia</option>
+                    </select>
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Sexo</legend>
+
+                <input type="radio" name="sex" value="m" id="man">
+                <label for="man">Hombre</label><br>
+
+                <input type="radio" name="sex" value="w" id="woman">
+                <label for="woman">Mujer</label>
+            </fieldset>
+
+            <p>
+                <label for="description">Descripción:</label><br>
+                <textarea name="description" id="description" rows="6" cols="60"></textarea>
+            </p>
+
+            <fieldset>
+                <legend>Consentimiento</legend>
+
+                <input type="checkbox" name="info" value="info" id="info" checked>
+                <label for="info">Deseo recibir información sobre novedades y ofertas.</label><br>
+
+                <input type="checkbox" name="conditions" value="conditions" id="conditions" required>
+                <label for="conditions">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label>
+            </fieldset>
+
+            <p><button>Enviar</button></p>
+        </form> 
+    </main> 
+</body>
+
+</html>

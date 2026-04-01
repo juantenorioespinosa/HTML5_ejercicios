@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Contenido multimedia en HTML5: Uso de la etiqueta &lt;video&gt;</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Como insertar tus propios videos en la web con la etiqueta &lt;video&gt;">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="Juan Tenorio">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+        <h1>La etiqueta <code>&lt;video&gt;</code></h1>
+        <p><a href="index.html">Volver atrás</a></p>
+        <hr/>
+    </header>
+    
+    <main>
+        <p>Video de los Minions cargado desde un directorio local:</p>
+        <video width="320" height="240" controls poster="./assets/imagenes/minions.jpg">
+            <source src="./assets/videos/minions.mp4" type="video/mp4">
+            <source src="./assets/videos/minions.webm" type="video/webm">
+            Tu navegador no soporta los formatos de video .mp4/.webm
+        </video>
+    </main> 
+</body>
+
+</html>
