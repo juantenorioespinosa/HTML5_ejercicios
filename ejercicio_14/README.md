@@ -1,6 +1,6 @@
 Tarea 14: Etiquetas multimedia en HTML5
 
-Este proyecto contiene una serie de ejercicios prácticos enfocados en el dominio de la inserción y configuración de contenido multimedia e incrustado en HTML5.
+Este proyecto contiene una serie de ejercicios prácticos sobre la inserción y configuración de contenido multimedia en HTML5.
 
 Se trabajará principalmente con las etiquetas `<iframe>`, `<video>` y `<audio>`, así como con sus atributos fundamentales (`src`, `width`, `height`, `controls`, `autoplay`), prestando especial atención a la compatibilidad de formatos y las políticas de reproducción de los navegadores.
 
@@ -18,7 +18,7 @@ Enunciados y Ejercicios realizados:
 
     Implementación de contextos de navegación anidados para mostrar recursos externos e internos en la página:
     - **Contenido básico**: Ejemplos de incrustación de páginas web externas y documentos HTML internos (como un formulario de registro personalizado).
-    - **Servicios de terceros**: Inserción de un reproductor de YouTube configurado con parámetros en la URL (`autoplay=1`, `mute=1`) para respetar las políticas del navegador, y mapas de Google Maps.
+    - **Servicios de terceros**: Inserción de un mapa de Google Maps y de un reproductor de YouTube configurado con parámetros en la URL (`autoplay=1`, `mute=1`) para respetar las políticas del navegador.
     - **Navegación dinámica**: Uso combinado del atributo `name` en el `<iframe>` y el atributo `target` en una lista de enlaces `<nav>` para cambiar el contenido del marco interactivo sin recargar la página principal.
 
 2. Reproducción de Video Local
@@ -29,6 +29,6 @@ Enunciados y Ejercicios realizados:
 
 3. Reproducción de Audio Local
 
-    Implementación de flujos de sonido integrados en el documento web mediante la etiqueta `<audio>`:
+    Integración de archivos de audio en el documento web mediante la etiqueta `<audio>`:
     - **Interfaz y controles**: Uso del atributo `controls`, indispensable para que el usuario pueda visualizar el reproductor e interactuar con el archivo de sonido (play, pausa, volumen).
-    - **Fuentes alternativas**: Uso de múltiples etiquetas `<source>` para cargar el mismo archivo de audio didáctico en diferentes formatos y calidades (MP3, AAC, FLAC) maximizando la compatibilidad universal, además de incluir el correspondiente mensaje de advertencia.
+    - **Fuentes alternativas**: Uso de varias etiquetas `<source>` para cargar el mismo archivo de audio didáctico en diferentes formatos y calidades (MP3, AAC, FLAC) maximizando la compatibilidad, además de incluir el correspondiente mensaje de advertencia.
