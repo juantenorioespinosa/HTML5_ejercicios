@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto y Soporte | Conquer Academy</title>
+  <meta name="description" 
+        content="¿Tienes dudas sobre nuestros cursos o necesitas asistencia técnica? 
+        Ponte en contacto con el equipo de Conquer Academy y te responderemos a la mayor brevedad.">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <nav>
+        <img src="../img/conquer-blocks-logo.avif" alt="Logo de Conquer Blocks" width="100" height="15" loading="eager">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="quienes-somos.html">quienes somos</a></li>
+            <li><a href="cursos.html">cursos</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="registro.html">registro</a></li>
+            <li><a href="login.html">login</a></li>
+            <li>contacto</li>
+        </ul>   
+        </nav>
+        <hr />
+    </header>
+
+    <main>
+        <h1>Estamos aquí para ayudarte a impulsar tu carrera</h1>
+        <section>
+            <h2>Canales de Comunicación</h2>
+            <p>
+                En Conquer Academy estamos comprometidos con tu éxito. 
+                Si tienes alguna duda sobre nuestras certificaciones o necesitas soporte administrativo, 
+                puedes visitarnos en nuestra sede central o enviarnos un mensaje.
+            </p>
+            
+            <address>
+                <strong>Conquer Academy</strong><br>
+                Email: <a href="mailto:conquer-academy@mail.com">conquer-academy@mail.com</a> <br />
+                EIN: 12-3456789<br>
+                16192 Coastal Highway, Lewes 19958, <br>
+                Delaware, USA
+            </address>
+
+            <hr>
+        </section>
+
+        <section>
+            <h2>Nuestra Ubicación Estratégica</h2>
+            <p>
+                Nuestras oficinas se encuentran en el corazón tecnológico de Delaware. <br />
+                Atendemos de forma presencial de lunes a viernes, de 09:00 a 18:00 (hora local).
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167373.03688196538!2d-75.34979925073476!3d38.78620225561324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b8b90d93fd3829%3A0x6bfd401d90b6d8f9!2s16192%20Coastal%20Hwy%2C%20Lewes%2C%20DE%2019958%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1776364087860!5m2!1ses!2ses" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Envíanos un Mensaje Directo</h2>
+            <p>
+                Completa el siguiente formulario y un asesor académico se pondrá en contacto contigo 
+                en menos de 24 horas laborables.
+            </p>
+
+            <form action="procesar-contacto.php" name="contacto" method="post">
+                <fieldset>
+                    <legend>Detalles de tu consulta</legend>
+
+                    <p>
+                        <label for="fullname">Nombre y apellidos</label><br>
+                        <input type="text" name="fullname" value="" id="fullname" required maxlength="50">
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" value="" id="email" placeholder="tu-correo@gmail.com" required maxlength="30" size="25">
+                    </p>
+
+                    <p>
+                        <label for="asunto">Asunto de tu consulta</label><br>
+                        <select name="asunto" id="asunto" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="cursos">Información sobre Cursos</option>
+                            <option value="pagos">Dudas sobre Pagos y Facturación</option>
+                            <option value="tecnico">Soporte Técnico</option>
+                            <option value="becas">Consultas sobre Becas</option>
+                            <option value="otros">Otros asuntos</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Mensaje</label><br>
+                        <textarea name="mensaje" id="mensaje" rows="6" cols="50" placeholder="Escribe aquí tu duda detalladamente..." required></textarea>
+                    </p>
+                </fieldset>
+
+                <p><button type="submit">Enviar</button></p>
+            </form>
+        </section>
+
+        <hr />
+    </main>
+
+    <footer>
+        <p><a href="aviso-legal.html">Aviso Legal</a></p>
+        <p>Conquer Academy 2026 &copy; - Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

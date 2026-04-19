@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edge Computing: Velocidad Extrema en la Web | Conquer Academy</title>
+  <meta name="description" 
+        content="Descubre cómo el procesamiento en el borde (Edge) está eliminando la latencia y 
+        revolucionando el rendimiento de las aplicaciones web modernas.">
+  <meta name="author" content="Juan Tenorio">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../../apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../..apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../../android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+  <link rel="manifest" href="../../manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../../ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="../../img/conquer-blocks-logo.avif" alt="Logo de Conquer Blocks" width="100" height="15" loading="eager">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../quienes-somos.html">quienes somos</a></li>
+        <li><a href="../cursos.html">cursos</a></li>
+        <li><a href="../blog.html">blog</a></li>
+        <li><a href="../registro.html">registro</a></li>
+        <li><a href="../login.html">login</a></li>
+        <li><a href="../contacto.html">contacto</a></li>
+      </ul>   
+    </nav>
+    <hr />
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <h1>El fin de la latencia en el desarrollo Full Stack</h1>
+        
+        <picture>
+          <source media="(min-width: 900px)"
+                  srcset="../../img/blog/edge-detalle-grande.jpg,
+                          ../../img/blog/edge-detalle-grande.jpg 2x,
+                          ../../img/blog/edge-detalle-grande.jpg 3x">
+                          
+          <source media="(min-width: 600px)"
+                  srcset="../../img/blog/edge-detalle-mediana.jpg,
+                          ../../img/blog/edge-detalle-mediana.jpg 2x,
+                          ../../img/blog/edge-detalle-mediana.jpg 3x">   
+                          
+          <img src="../../img/blog/edge-detalle-pequena.jpg"
+              srcset="../../img/blog/edge-detalle-pequena.jpg,
+                      ../../img/blog/edge-detalle-pequena.jpg 2x,
+                      ../../img/blog/edge-detalle-pequena.jpg 3x"
+              alt="Diagrama de red distribuyendo datos desde servidores centrales hacia nodos locales cercanos al usuario"
+              width="400"
+              height="266"
+              loading="eager">
+        </picture>
+
+        <p>
+          El Edge Computing representa un cambio de paradigma en la arquitectura de internet, moviendo el procesamiento 
+          de datos desde centros de cómputo lejanos hacia el "borde" de la red, lo más cerca posible del usuario final. 
+          Tradicionalmente, cuando un usuario interactuaba con una web, la solicitud debía viajar miles de kilómetros 
+          hasta un servidor central, procesarse y volver, lo que generaba una latencia perceptible. Con la tecnología Edge, 
+          la lógica de negocio y el renderizado se ejecutan en nodos locales distribuidos globalmente, permitiendo que 
+          las aplicaciones respondan de manera casi instantánea, independientemente de la ubicación geográfica de la persona.
+        </p>
+
+        <p>
+          Para los desarrolladores Full Stack, esto significa aprender a trabajar con <strong>"Edge Functions"</strong>. Estas son pequeñas 
+          piezas de código asíncrono que se ejecutan en el momento de la solicitud, permitiendo personalizar el contenido, 
+          gestionar la autenticación o manipular cabeceras de seguridad sin llegar nunca al servidor de origen. 
+          Esta eficiencia no solo mejora la experiencia del usuario (UX), sino que impacta directamente en el SEO, 
+          ya que los motores de búsqueda priorizan los sitios con tiempos de respuesta ultra-rápidos, convirtiendo al Edge Computing 
+          en una herramienta indispensable para cualquier proyecto de alto rendimiento.
+        </p>
+
+        <p>  
+          Sin embargo, el despliegue en el borde también plantea retos en la gestión de la consistencia de los datos. 
+          Al estar la información distribuida en cientos de puntos, asegurar que todos los usuarios vean la misma actualización 
+          al mismo tiempo requiere una sincronización precisa y un diseño de bases de datos distribuido. Dominar estas técnicas 
+          de "propagación" y el manejo de estados globales es lo que define a los arquitectos web de la nueva era, quienes deben 
+          equilibrar la velocidad extrema con la integridad absoluta de la información.
+        </p>
+
+        <p>
+          Nuestra visión: En Conquer Academy, somos conscientes de que el futuro de la web reside en eliminar las distancias físicas. 
+          Por ello, capacitamos a nuestros alumnos para que dejen de ver el servidor como un punto fijo y empiecen a dominar 
+          arquitecturas distribuidas, garantizando que sus aplicaciones ofrezcan una respuesta instantánea y global, sin importar 
+          dónde se encuentre el usuario.
+        </p>
+
+        <p><a href="../blog.html">Volver al blog de noticias</a></p>
+
+        <hr />
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="../aviso-legal.html">Aviso Legal</a></p>
+    <p>Conquer Academy 2026 &copy; - Todos los derechos reservados</p>
+  </footer>
+</body>
+
+</html>
